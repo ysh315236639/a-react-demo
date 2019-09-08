@@ -1,0 +1,37 @@
+.header {
+  display: flex;justify-content: space-between;
+  padding: 10px 25px;
+  background-color: #fff;
+  border-bottom: 1px solid #f2f4f0;
+}
+.left {
+  display: flex;align-items: center;
+  i {
+    font-size: 24px;color: #aab4c9;
+    cursor: pointer;
+  }
+  p {
+    font-size: 20px;color: #0e121f;
+    font-weight: bold;padding-left: 20px;
+    margin: 0;
+  }
+}
+.right {
+  display: flex;align-items: center;
+  div {
+    display: flex;align-items: center;
+    margin-right: 15px;cursor: pointer;
+    i {
+      font-size: 24px;color: #6d7194;
+    }
+    span {
+      font-size: 14px; color: #6d7194;
+    }
+  }
+}
+.avter {
+  display: inline-block;
+  width: 40px;height: 40px;
+  background-image: url('../../assets/img/tx.png');
+  background-size: 100% 100%;
+}
